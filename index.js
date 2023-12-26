@@ -224,7 +224,7 @@ function random() {
   ///////empty input when next word comes on
   theWordUp.innerHTML = "";
   ////////Generate WOOOOOOOOOOOOOOORDS XD
-  for (let i = 0; i < words.length - 485; i++) {
+  for (let i = 0; i < words.length - 48; i++) {
     //// create div element
     let div = document.createElement("div");
     let text = document.createTextNode(words[i]);
